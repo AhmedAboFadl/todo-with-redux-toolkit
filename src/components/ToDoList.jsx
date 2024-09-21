@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setTodoList, addTodo, updateTodo, removeTodo } from '../components/ToDoList';
+import { setTodoList, addTodo, updateTodo, removeTodo } from '../components/todoSlice';
 import { TiPencil } from 'react-icons/ti';
 import { BsTrash } from 'react-icons/bs';
 
